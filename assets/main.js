@@ -1,10 +1,14 @@
 console.log("script caricato");
-const altezza = prompt("quanto sei alto?", "0");
+
 const age = prompt("quanti anni hai?", "0");
 
-if (altezza >= 140 && age >= 14) {
-    console.log("puoi accedere alle montagne russe")
+if (age < 18) {
+    console.log("ciao")
 }
-else {
-    console.log("non puoi accedere alle montagne russe");
+if (age > 60) {
+    console.log("salve");
+}
+if (age >= 18 && age <= 60) {
+    console.log("benvenuto");
+
 }

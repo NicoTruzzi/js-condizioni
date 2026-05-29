@@ -1,15 +1,16 @@
 # Prezzo totale spesa e-commerce
 
-4. Un parco divertimenti richiede un'altezza minima di 140cm e almeno 14 anni per le montagne russe. Chiedi questi dati all'utente e stampa se può accedere alle montagne russe.
+5. Chiedi l'età all'utente. Se è minorenne stampa "Ciao", se è over60 stampa "Salve", altrimenti stampa "Benvenuto".
 
 ## Ragionamento
 
-- per le montagne russe l'altezza minima è di 140cm mentre l'età è di 14 anni
-- chiedi l`altezza 
-- chiedi l`età
-- SE l'utente ha l'altezza e l'età minima  
-  - stampa "puoi accedere alle montagne russe"
+
+- chiedi l'età
+- SE l'utente è minorenne  
+  - stampa "ciao"
+- SE è over 60
+  - stampa "salve"
 - ALTRIMENTI
- - stampa "non puoi accedere alle montagne russe"
+  - stampa "benvenuto"
 
       
