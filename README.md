@@ -9,6 +9,6 @@
 - SE il numero è pari  
   - stampa "il numero è pari"
 - ALTRIMENTI
- - STAMPA "il numero è dispari"
+ - stampa "il numero è dispari"
 
       
