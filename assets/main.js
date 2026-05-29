@@ -1,16 +1,12 @@
 console.log("script caricato");
-const voto = prompt("inserisci un voto", "0");
+const ore = prompt("quante ore rimani nel parcheggio?", "0");
 
-if (voto < 6) {
-    console.log("insufficente");
-
+if (ore <= 2) {
+    console.log("il costo del parcheggio è 5$");
 }
-if (voto > 5 && voto < 8) {
-    console.log("sufficente");
+if (ore > 2 && ore <= 5) {
+    console.log("il prezzo del parcheggio è 10$");
 }
-if (voto > 7 && voto < 10) {
-    console.log("buono");
-}
-if (voto == 10) {
-    console.log("ottimo");
+if (ore > 5) {
+    console.log("il prezzo del parcheggio è 15%");
 }

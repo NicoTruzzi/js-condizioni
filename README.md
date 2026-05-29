@@ -1,18 +1,17 @@
 # Prezzo totale spesa e-commerce
 
-9. Chiedi un voto da 1 a 10. Stampa "Insufficiente" se < 6, "Sufficiente" se tra 6 e 7, "Buono" se tra 8 e 9, "Ottimo" se 10.
+10. Chiedi quante ore si resta nel parcheggio. Se sono <= 2 ore costa 5€, se sono <= 5 ore costa 10€, altrimenti costa 15€.
+
 
 ## Ragionamento
 
 
-- chiedi all'utente un voto da 1 a 10
-- SE è il voto è minore di 6
-  - stampa "insufficente"
-- SE è tra 6 e 7 
-  - stampa "sufficente"
-- SE è tra 8 e 9 
-  - stampa "buono"
-- ALTRIMENTI se è 10
-  - stampa "ottimo"
+- chiedi all'utente quante ore resterà nel parcheggio
+- SE le ore sono <= 2 
+  - stampa "il costo del parcheggio è 5$"
+- SE le ore sono <= 5 e > 2  
+  - stampa "il costo del parcheggio è 10$"
+- ALTRIMENTI 
+  - stampa "il costo del parcheggio è 15$"
 
       
