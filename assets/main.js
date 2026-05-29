@@ -1,11 +1,16 @@
 console.log("script caricato");
-let moneta = Math.random();
 
-if (moneta <= 0.5) {
-    console.log("testa")
-} else {
-    console.log("croce");
+let i = 0;
+while (i == 0) {
+    let nome = prompt("come ti chiami?");
+    if (!nome) {
+        console.log("inserisci il nome")
 
+    } else {
+        console.log(nome)
+        i++;
+
+    }
 }
 
 
