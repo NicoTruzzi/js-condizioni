@@ -1,10 +1,10 @@
 console.log("script caricato");
-const age = prompt("quanti anni hai?", "0");
+const valigia = prompt("quanto pesa la valigia?", "0");
 
-if (age >= 18) {
-    console.log("accesso consentito")
+if (valigia > 23) {
+    console.log("il prezzo del biglietto è di 56$")
 }
 else {
-    console.log("accesso non consentito");
+    console.log("il prezzo del biglietto è di 36$");
 
 }

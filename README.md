@@ -1,15 +1,13 @@
 # Prezzo totale spesa e-commerce
 
-1. Chiedi l'età dell'utente tramite prompt. Se l'utente è maggiorenne, stampa a console "Accesso consentito al locale".
-
+1. Il costo del biglietto è di 36 €. Chiedi il peso della valigia in kg. Se il peso supera i 23kg, c'è un supplemento di 20 €, infine stampa il prezzo del biglietto.
 
 ## Ragionamento
 
-- Chiedi l'età all`utente
-- controlla se l`utente è maggiorenne
+- il costo del biglietto è 36$
+- chiedi quanto chili la valigia
+- SE il peso è maggiore di 23kg 
+  - il prezzo del biglietto aumenta di 20$
+- stampa il prezzo del biglietto
 
-- SE è maggiorenne stampa accesso consentito 
-
-- ALTRIMENTI stampa accesso non consentito
- 
-   
+      
