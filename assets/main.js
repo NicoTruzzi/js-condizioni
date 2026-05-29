@@ -1,10 +1,12 @@
 console.log("script caricato");
-const age = prompt("quanti anni hai?", "0");
-const gen = prompt("sei un uomo o una donna?");
+let moneta = Math.random();
 
-if ((age > 66 && gen === "m") || (age > 61 && gen === "f")) {
-    console.log("pui andare in pensione");
+if (moneta <= 0.5) {
+    console.log("testa")
 } else {
-    console.log("devi ancora lavorare");
+    console.log("croce");
 
 }
+
+
+
