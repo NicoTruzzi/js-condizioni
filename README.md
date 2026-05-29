@@ -1,17 +1,16 @@
 # Prezzo totale spesa e-commerce
 
-10. Chiedi quante ore si resta nel parcheggio. Se sono <= 2 ore costa 5€, se sono <= 5 ore costa 10€, altrimenti costa 15€.
+11. Chiedi l'età e il genere ("M" o "F"). Se è uomo e ha >= 67 anni o donna e ha >= 62 anni, stampa "Puoi andare in pensione", altrimenti "Devi ancora lavorare".
+
 
 
 ## Ragionamento
 
 
-- chiedi all'utente quante ore resterà nel parcheggio
-- SE le ore sono <= 2 
-  - stampa "il costo del parcheggio è 5$"
-- SE le ore sono <= 5 e > 2  
-  - stampa "il costo del parcheggio è 10$"
+- chiedi all'utente l'età e il genere 
+- SE l'utente è un uomo e l'età è maggiore di 66 anni o è un donna e l'età è maggiore di 61 anni
+  - stampa "puoi andare in pensione"
 - ALTRIMENTI 
-  - stampa "il costo del parcheggio è 15$"
+  - stampa "devi ancora lavorare"
 
       
