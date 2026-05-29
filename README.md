@@ -1,6 +1,7 @@
 # Prezzo totale spesa e-commerce
 
-14. Chiedi la temperatura esterna. Se fa freddo (< 15°C), chiedi se piove. Se piove stampa "Metti impermeabile", altrimenti "Metti giacca". Se non fa freddo (>= 15°C), stampa "Vai leggero".
+16. Chiedi il saldo attuale e l'importo da prelevare. Prima verifica se l'importo è positivo. Se lo è, verifica se il saldo è sufficiente. Se sì, stampa "Prelievo effettuato" e il nuovo saldo, altrimenti stampa "Saldo insufficiente".
+
 
 
 
