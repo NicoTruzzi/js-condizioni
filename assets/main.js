@@ -1,12 +1,11 @@
 console.log("script caricato");
 
-let tfed = prompt("hai la tessera fedeltà", "si");
-let prezzo = prompt("quale è il prezzo dell'articolo", "0");
-let i = parseInt(prezzo);
+let giorno = prompt("che giorno è oggi?", "lunedì");
 
 
-if (tfed === "si") {
-    i = i + ((i * 10) / 100);
+if (giorno === "sabato" || giorno === "domenica") {
+    console.log("buon weekend")
 }
-
-console.log(i)
+else {
+    console.log("buon lavoro")
+}
