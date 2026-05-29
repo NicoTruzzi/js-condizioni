@@ -1,9 +1,10 @@
 console.log("script caricato");
-const num = prompt("inserisci un numero", "0");
+const altezza = prompt("quanto sei alto?", "0");
+const age = prompt("quanti anni hai?", "0");
 
-if (num % 2 === 0) {
-    console.log("il numero è pari")
+if (altezza >= 140 && age >= 14) {
+    console.log("puoi accedere alle montagne russe")
 }
 else {
-    console.log("il numero è dispari");
+    console.log("non puoi accedere alle montagne russe");
 }

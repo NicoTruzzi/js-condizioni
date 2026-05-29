@@ -1,14 +1,15 @@
 # Prezzo totale spesa e-commerce
 
-3. Chiedi un numero all'utente. Stampa se è pari o dispari.
+4. Un parco divertimenti richiede un'altezza minima di 140cm e almeno 14 anni per le montagne russe. Chiedi questi dati all'utente e stampa se può accedere alle montagne russe.
 
 ## Ragionamento
 
-
-- chiedi un numero all`utente
-- SE il numero è pari  
-  - stampa "il numero è pari"
+- per le montagne russe l'altezza minima è di 140cm mentre l'età è di 14 anni
+- chiedi l`altezza 
+- chiedi l`età
+- SE l'utente ha l'altezza e l'età minima  
+  - stampa "puoi accedere alle montagne russe"
 - ALTRIMENTI
- - stampa "il numero è dispari"
+ - stampa "non puoi accedere alle montagne russe"
 
       
