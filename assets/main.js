@@ -1,14 +1,12 @@
 console.log("script caricato");
 
-const age = prompt("quanti anni hai?", "0");
+let tfed = prompt("hai la tessera fedeltà", "si");
+let prezzo = prompt("quale è il prezzo dell'articolo", "0");
+let i = parseInt(prezzo);
 
-if (age < 18) {
-    console.log("ciao")
-}
-if (age > 60) {
-    console.log("salve");
-}
-if (age >= 18 && age <= 60) {
-    console.log("benvenuto");
 
+if (tfed === "si") {
+    i = i + ((i * 10) / 100);
 }
+
+console.log(i)

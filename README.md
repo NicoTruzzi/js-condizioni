@@ -1,16 +1,16 @@
 # Prezzo totale spesa e-commerce
 
-5. Chiedi l'età all'utente. Se è minorenne stampa "Ciao", se è over60 stampa "Salve", altrimenti stampa "Benvenuto".
+6. Chiedi se l'utente ha la tessera fedeltà. Se ha la tessera applica uno sconto del 10% al prezzo inserito, altrimenti lascia il prezzo intero. Stampa il prezzo.
 
 ## Ragionamento
 
 
-- chiedi l'età
-- SE l'utente è minorenne  
-  - stampa "ciao"
-- SE è over 60
-  - stampa "salve"
-- ALTRIMENTI
-  - stampa "benvenuto"
+- chiedi se l'utente ha la tessera fedeltà
+- inserisci il prezzo dell'articolo
+- SE l'utente ha la tessera fedeltà
+  - stampa "il prezzo dell'articolo meno il 10%"
+- ALTRIMENTI 
+  - stampa "stampa il prezzo dell'articolo"
+
 
       
