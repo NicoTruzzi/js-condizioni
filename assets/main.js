@@ -1,10 +1,9 @@
 console.log("script caricato");
-const valigia = prompt("quanto pesa la valigia?", "0");
+const num = prompt("inserisci un numero", "0");
 
-if (valigia > 23) {
-    console.log("il prezzo del biglietto è di 56$")
+if (num % 2 === 0) {
+    console.log("il numero è pari")
 }
 else {
-    console.log("il prezzo del biglietto è di 36$");
-
+    console.log("il numero è dispari");
 }
