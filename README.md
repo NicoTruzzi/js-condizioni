@@ -1,16 +1,15 @@
 # Prezzo totale spesa e-commerce
 
-Nicolò:
-Chiedi il totale del carrello e-commerce. Se la spesa è superiore a 50€, stampa "Spedizione gratuita", altrimenti calcola e stampa un costo di spedizione fisso di 5€.
+1. Chiedi l'età dell'utente tramite prompt. Se l'utente è maggiorenne, stampa a console "Accesso consentito al locale".
 
 
 ## Ragionamento
 
-- Chiedi il totale della spesa
-- controlla se il totale è diverso da 0
-- SE è uguale a 0 
-  - stampa il carrello è vuoto
-- SE il totale della spesa è superiore a 50€ 
-  - stampa spedizione gratuita
-- ALTRIMENTI 
-  - stampa il costo della spesa + 5€ 
+- Chiedi l'età all`utente
+- controlla se l`utente è maggiorenne
+
+- SE è maggiorenne stampa accesso consentito 
+
+- ALTRIMENTI stampa accesso non consentito
+ 
+   

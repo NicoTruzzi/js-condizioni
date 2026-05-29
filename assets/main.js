@@ -1,18 +1,10 @@
 console.log("script caricato");
-let costo = prompt("quale è il totale della spesa", "0");
-let i = parseInt(costo);
+const age = prompt("quanti anni hai?", "0");
 
-if (i != 0) {
-    if (i > 50) {
-        console.log("la spedizione è gratuita")
-    }
-    else {
-        i = i + 5;
-        console.log("il costo della spesa più le spese di spedizone è di " + i + "€")
-    }
+if (age >= 18) {
+    console.log("accesso consentito")
 }
-if (i === 0) {
-
-    console.log("il carrello è vuoto")
+else {
+    console.log("accesso non consentito");
 
 }
