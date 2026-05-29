@@ -1,17 +1,19 @@
 console.log("script caricato");
 
-let i = 0;
-while (i == 0) {
-    let nome = prompt("come ti chiami?");
-    if (!nome) {
-        console.log("inserisci il nome")
+let gradi = prompt("quale è la temperatura?")
+
+if (gradi < 15) {
+    let temp = prompt("piove?")
+    if (temp === "si") {
+        console.log("metti l'impermeabile");
 
     } else {
-        console.log(nome)
-        i++;
+        console.log("metti giacca");
 
     }
 }
 
+if (gradi > 14) {
+    console.log("vai leggero");
 
-
+}

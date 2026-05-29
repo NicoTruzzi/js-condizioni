@@ -1,6 +1,7 @@
 # Prezzo totale spesa e-commerce
 
-12. Chiedi all'utente di inserire il suo nome. Verifica che non abbia lasciato il campo vuoto.
+14. Chiedi la temperatura esterna. Se fa freddo (< 15°C), chiedi se piove. Se piove stampa "Metti impermeabile", altrimenti "Metti giacca". Se non fa freddo (>= 15°C), stampa "Vai leggero".
+
 
 
 ## Ragionamento
