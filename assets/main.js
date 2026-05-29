@@ -1,15 +1,16 @@
 console.log("script caricato");
-let i = false;
+const voto = prompt("inserisci un voto", "0");
 
-while (i == false) {
-    let user = prompt("insersci l'username");
-    let pw = prompt("inserisci la password");
-    if (user === "admin" && pw === "1234") {
-        console.log("login effettuato")
-        i = true;
-    }
-    else {
-        console.log("credenziali errate")
-    }
+if (voto < 6) {
+    console.log("insufficente");
 
+}
+if (voto > 5 && voto < 8) {
+    console.log("sufficente");
+}
+if (voto > 7 && voto < 10) {
+    console.log("buono");
+}
+if (voto == 10) {
+    console.log("ottimo");
 }
