@@ -1,15 +1,15 @@
 # Prezzo totale spesa e-commerce
 
-7. Chiedi all'utente che giorno è oggi. Se è "sabato" o "domenica" stampa "Buon weekend!", altrimenti stampa "Buon lavoro"
+8. Chiedi username e password. Se sono rispettivamente "admin" e "1234", stampa "Login effettuato", altrimenti stampa "Credenziali errate".
 
 ## Ragionamento
 
 
-- chiedi all'utente che giorno è oggi
-- SE è sabato o domenica
-  - stampa "buon weekend"
+- chiedi all'utente username e password
+- SE è l'username è "admin" e la password è "1234"
+  - stampa "login effettuato"
 - ALTRIMENTI 
-  - stampa "buon lavoro"
+  - stampa "credenziali errate"
 
 
       

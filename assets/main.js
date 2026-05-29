@@ -1,11 +1,15 @@
 console.log("script caricato");
+let i = false;
 
-let giorno = prompt("che giorno è oggi?", "lunedì");
+while (i == false) {
+    let user = prompt("insersci l'username");
+    let pw = prompt("inserisci la password");
+    if (user === "admin" && pw === "1234") {
+        console.log("login effettuato")
+        i = true;
+    }
+    else {
+        console.log("credenziali errate")
+    }
 
-
-if (giorno === "sabato" || giorno === "domenica") {
-    console.log("buon weekend")
-}
-else {
-    console.log("buon lavoro")
 }
